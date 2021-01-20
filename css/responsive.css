@@ -1,0 +1,200 @@
+@media (min-width: 1441px) {
+	/* HEADER-SECTION */
+	.logo img {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 1440.98px) {
+	/* HEADER-SECTION */
+	.logo img {
+		width: 70% !important;
+	}
+}
+
+@media (max-width: 1199.98px) {
+	h3.little-heading-title {
+		font-size: 20px;
+	}
+	/* HEADER-SECTION */
+	.logo img {
+		width: 70% !important;
+	}
+	ul.menu li a {
+		padding: 5px 15px !important;
+	}
+	.search-box {
+		background: #f05c5c;
+		top: 150%;
+		left: -384px;
+		min-width: 15rem;
+	}
+	/* COURSE-SECTION */
+	.course-header-text span {
+		right: 8px;
+	}
+	.course-body-text .price-box {
+		top: 253px;
+	}
+	.footer-col-2-text ul li a {
+		display: block;
+		font-size: 40px;
+		width: 45px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	/* HEADER-SECTION */
+	.logo img {
+		width: 65% !important;
+	}
+	ul.menu {
+		margin-top: 50px;
+	}
+	ul.menu li {
+		margin-left: 0px;
+	}
+	ul.menu li a.active,
+	ul.menu li a:hover {
+		background-color: transparent;
+	}
+	/*	SEARCH-BOX */
+	.col-search input {
+		font-family: 'Lato', sans-serif;
+		width: 90%;
+		color: #333;
+		font-size: 16px;
+		padding: 8px 12px;
+		background-color: transparent;
+		border: 0;
+		outline: 0;
+	}
+	.col-search button {
+		width: 10%;
+		height: 46px;
+		font-weight: 400;
+		font-size: 20px;
+		color: #333;
+		text-align: center;
+		background-color: transparent;
+		border: 0;
+		outline: 0;
+	}
+	/*  KID-1-SECTION */
+	.kid-img {
+		margin-top: 60px;
+	}
+	/* COURSE-SECTION */
+	.course-header-text span {
+		right: 15px;
+	}
+	.course-body-text .price-box {
+		top: 177px;
+	}
+	
+}
+
+@media (max-width: 767.98px) {
+	h2.top-title {
+		font-size: 26px;
+	}
+	h3.little-heading-title {
+    	font-size: 19px;
+	}
+	/* BANNER-SECTION */
+	.banner-text h1 {
+		margin: 200px 0 250px;
+	}
+	/*	HEADER-SECTION */
+	.col-search-box {
+		width: 85% !important;
+	}
+	/* COURSE-SECTION */
+	.course-body-text .price-box {
+		top: 292px;
+	}
+	/* TEACHERS-SECTION */
+	.teachers-section .row-2 {
+		margin-top: 60px;
+	}
+	.teachers-top-text .teachers-middle-text p {
+		width: 100%;
+	}
+	/* FOOTER-2-SECTION */
+	.footer-col-2-text h3::after,  
+	.footer-col-3-text h3::after,  
+	.footer-col-4-text h3::after {
+		left: 50%;
+		margin-left: -87.5px;
+	}
+	/* FOOTER-2-SECTION */
+	.footer-2-left-text ul li a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	section,
+	.footer-1-section {
+		padding: 50px 0 !important;
+	}
+	h2.top-title {
+		font-size: 22px;
+	}
+	/* STICKY MENU */
+	.sticky-menu {
+		padding: 10px 15px !important;
+	}
+	.banner-section {
+		padding: 0 !important;
+	}
+	/*	HEADER-SECTION */
+	.col-search-box {
+		width: 100% !important;
+	}
+	.col-search input {
+		width: 88%;
+	}
+	.col-search button {
+		width: 12%;
+		font-size: 18px;
+	}
+	/*	BANNER-SECTION */
+	.banner-text h1 {
+		margin: 100px 0 50px;
+		font-size: 35px;
+	}
+	.scroll-down {
+		margin-bottom: 140px;
+	}
+	/* KID-1-SECTION	*/
+	.kid-text a img,
+	.memorable-btn a img {
+		width: 180px !important;
+	}
+	/* COURSE-SECTION	*/
+	.course-body-text {
+		text-align: center !important;
+	}
+	.course-body-text .price-box {
+		position: static;
+		width: 65px;
+		height: 65px;
+		margin: 15px auto 0;
+	}
+	.price-box p {
+		line-height: 30px;
+	}
+	/* MEMORABLE-SECTION	*/
+	.memorable-section .row-2 {
+		margin: 60px 0;
+	}
+	/* WORK-COUNTUP-SECTION */
+	.count-box h2 {
+		font-size: 40px;
+	}
+	/* FOOTER-2-SECTION */
+	.footer-2-right-text p {
+		font-size: 13px;
+	}
+}
